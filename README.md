@@ -7,6 +7,15 @@ Project 1 (P1) follows and analyzes a fictional B2B sales pipeline from acquirin
 - Rudimentary visualizations highlighting actionable findings
 
 This repository aims to reflect a real-world analytics workflow while emphasizing reproducibility and business value.
+## The Why/For What
+Stumbling across this sales pipeline / CRM dataset on Maven Analytics posed me with what I believed to be a great opportunity to show off my grounding Python, SQL, and Data-Viz capabilities that I've been taking intiative to improve. Constantly looking for ways to grow (and put on display) my data analysis toolkit, I saw the learning opportunity as solid portfolio potential.
+
+The hero question (or problem to solve) here asks from where the greatest revenue potential is derived.
+
+I planned to first clean the sales pipeline dataset's 4 individual tables using a tailored cleaning script in Python. What followed would be a brief but practical data quality check / exploratory analysis in Python. From there, I figured I could load the data into a readied PostgreSQL database of my own, query for insight, 
+
+
+
 
 ## Tech Stack
 ### Python
@@ -117,11 +126,13 @@ Emphasizes the West office's efficiency via "revenue per day engaged" metrics. R
 There are a few steps to take to set up and reproduce this project:
 - Clone the repository structure
 - Install dependencies (libraries, modules)
-- Run clean_data.py on raw CSVs to generate cleaned CSVs
-- Create PostgreSQL tables from /sql/create_tables.sql
-- Load cleaned data using /sql/insert_clean_data.sql
-- Run analysis queries in /sql/analysis_queries.sql
-- View charts in /outputs/charts/
+- Run 21-clean_data.py on raw CSVs to generate cleaned CSVs
+
+(Optional: View PostgreSQL schema for primary/foreign keys (PKs/FKs) from /40-sql/41-schema.sql)
+- Create PostgreSQL tables from /40-sql/42-create_tables.sql
+- Load cleaned data using /40-sql/43-insert_clean_data.sql
+- Run analysis queries in /40-sql/44-analysis_queries.sql
+- View charts in /50-outputs/51-charts/
 
 ## Future Improvements
 - Automated ETL (extract, transform, load) pipeline
