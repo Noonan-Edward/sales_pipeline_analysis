@@ -10,12 +10,9 @@ This repository aims to reflect a real-world analytics workflow while emphasizin
 ## The Why/For What
 Stumbling across this sales pipeline / CRM dataset on Maven Analytics posed me with what I believed to be a great opportunity to show off my grounding Python, SQL, and Data-Viz capabilities that I've been taking intiative to improve. Constantly looking for ways to grow (and put on display) my data analysis toolkit, I saw the learning opportunity as solid portfolio potential.
 
-The hero question (or problem to solve) here asks from where the greatest revenue potential is derived.
+The hero question (or problem to solve), here, asks from where the greatest revenue potential is derived.
 
-I planned to first clean the sales pipeline dataset's 4 individual tables using a tailored cleaning script in Python. What followed would be a brief but practical data quality check / exploratory analysis in Python. From there, I figured I could load the data into a readied PostgreSQL database of my own, query for insight, 
-
-
-
+I planned to first clean the sales pipeline dataset's 4 individual tables using a tailored cleaning script in Python. What followed would be a brief but practical data quality check / exploratory analysis in Python. From there, I figured I could load the data into a readied PostgreSQL database of my own, query for insight, and draw actionable conclusions. Coupled with a few rudimentary but nonetheless high-yield visualizations produced in Microsoft Power BI, I planned to have developed a true front-to-end, portfolio-ready data analytics project.
 
 ## Tech Stack
 ### Python
@@ -121,6 +118,25 @@ Reaffirms the discouragement of GTK 500 prospecting while highlighting the GTX P
 
 ### Premise:
 Emphasizes the West office's efficiency via "revenue per day engaged" metrics. Revenue per day engaged ≠ revenue per day; instead, it evaluates what one active sales opportunity yields the office per day. 
+
+## Challenges/Caveats
+
+#### Author's Limiting Factors
+Entry-Level Python Expertise
+- Redundancy
+- Inefficiencies
+
+Imperfect Data
+- Limited data points
+- Lack of product/organizational information
+
+
+#### Author's Difficulties
+Learning the PostgreSQL software
+- Loading data
+- Establishing & maintaining database connection
+- Navigating DBeaver over pgAdmin 4
+
 
 ## How to Run This Project
 There are a few steps to take to set up and reproduce this project:
