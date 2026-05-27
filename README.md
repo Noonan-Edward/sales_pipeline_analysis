@@ -159,7 +159,7 @@ There are a few steps to take to set up and reproduce this project:
 ## The Author
 
 ### Edward Noonan
-Data Analyst with grounding experience in SQL, Python, R/RStudio, BI tools (PowerBI & Tableau), and overall analytics workflows.
+Data Analyst/Aspiring Data-Scientist with grounding experience in SQL, Python, R/RStudio, BI tools (PowerBI & Tableau), and overall analytics workflows.
 
 This project was developed and polished as part of a post-graduation portfolio to demonstrate real-world data analysis (and engineering) capabilities.
 
